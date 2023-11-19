@@ -29,5 +29,5 @@ API de Clima: O projeto se conecta a uma API de previsão do tempo para obter in
 
 # Contribuição
 
-Qual sugestão e contribuição, sinta se encorajado para enviar abrir issue, enviar um pull request ou fornecer feedback. 
+Qualquer sugestão e contribuição, sinta se encorajado para enviar abrir issue, enviar um pull request ou fornecer feedback. 
 
