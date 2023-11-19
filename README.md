@@ -19,7 +19,7 @@ Esse projeto é uma aplicação web simples que coloca informações meteorológ
 Temperatura do momento em uma cidade 
 Umidade do ar 
 Descrição do clima
-Imagem gráfica representativa de como se encontra o tempo
+ícone representativo de como se encontra o tempo
 
 # Tecnologias Utilizadas
 
@@ -27,7 +27,4 @@ JavaScript: responsável pela interação com o usuário e pela execução das c
 HTML/CSS: responsável pela interação com o usuário e pela execução das chamadas à API,
 API de Clima: O projeto se conecta a uma API de previsão do tempo para obter informações da temperatura.
 
-# Contribuição
-
-Qualquer sugestão e contribuição, sinta se encorajado para enviar abrir issue, enviar um pull request ou fornecer feedback. 
 
