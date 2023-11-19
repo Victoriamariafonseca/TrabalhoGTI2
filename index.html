@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define o conjunto de caracteres UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Define a versão do Internet Explorer a ser usada -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Configura a largura da viewport e a escala inicial -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Inclui um arquivo de estilo externo chamado "style.css" -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Pré-conecta ao domínio da API de fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Importa os estilos da fonte "Open Sans" e "Roboto" do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <!-- Define o título da página -->
+    <title>Previsão do tempo</title>
+    <!-- Adiciona o favicon -->
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    
+    <!-- Contêiner principal -->
+    <div class="caixa-maior">
+        <h3>Previsão do tempo</h3>
+    <div class="form-input-container">  
+        <!-- Input para digitar o nome da cidade -->
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+        <!-- Botão para acionar a função cliqueBotao() -->
+        <button onclick="cliqueBotao()"> 
+            <!-- Imagem de uma lupa dentro do botão -->
+            <img class="lupa" src="find.svg" >
+        </button>
+
+        <!-- Caixa média para exibir informações sobre o clima -->
+        <div class="caixa-media">
+            <!-- Título da cidade -->
+            <h2 class="cidade">Aguardando cidade...</h2>
+            <!-- Temperatura atual -->
+            <p class="temp">Temperatura: </p>
+            
+            <!-- Caixa menor para ícone e descrição do clima -->
+            <div class="caixa-menor">
+                <!-- Ícone representando o estado do tempo -->
+                <img class="icone" src="https://openweathermap.org/img/wn/04n.png">
+                <!-- Descrição do estado do tempo -->
+                <p class="descricao"></p>
+            </div>
+            
+            <!-- Porcentagem de umidade -->
+            <p class="umidade">Umidade: </p>
+        </div>
+    </div>
+
+    <!-- Inclui o arquivo de script externo chamado "script.js" -->
+    <script src="script.js"></script>
+</body>
+</html>

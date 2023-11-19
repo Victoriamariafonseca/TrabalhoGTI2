@@ -1,0 +1,111 @@
+/* Define estilos padrão para todos os elementos, evita margens e preenchimentos padrão, 
+e define a caixa de modelagem como border-box para facilitar o dimensionamento. 
+Usa a fonte 'Open Sans' para todo o documento. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* Estilos para o corpo da página. Centraliza o conteúdo na tela, 
+define uma altura e largura de 100% e usa uma imagem de fundo dinâmica do Unsplash. */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+/* Estilos para inputs. Remove bordas, destaca ao passar o mouse e define estilos de texto. */
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 100px);
+}
+
+/* Estilos para a caixa principal. Define cor de fundo, opacidade, 
+bordas arredondadas e largura máxima. */
+.caixa-maior {
+    background-color: #000000;
+    width: 95%;
+    max-width: 420px;
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+/* Estilos para botões. Remove bordas, destaca ao passar o mouse e posiciona à direita. */
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #ffffffff;
+    float: right;
+    cursor: pointer;
+}
+
+/* Estilos para o botão ao passar o mouse. */
+button:hover {
+    background-color: #01496b;
+}
+
+/* Estilos para a caixa média, adiciona margem superior. */
+.caixa-media {
+    margin-top: 30px;
+}
+
+/* Estilos para a caixa menor, alinha itens centralmente. */
+.caixa-menor {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+/* Estilos para a lupa (ícone de pesquisa). Define altura. */
+.lupa {
+    height: 20px;
+}
+
+/* Estilos para títulos. Define cor e tamanho da fonte. */
+h2 {
+    color: white;
+    font-size: 28px;
+}
+
+/* Estilos para temperatura. Define cor e margem superior. */
+.temp {
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+/* Estilos para a descrição. Define cor, transforma texto em maiúsculas 
+e adiciona margem à esquerda. */
+.descricao {
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+/* Estilos para a umidade. Define cor, transforma texto em maiúsculas 
+e adiciona margem superior. */
+.umidade {
+    color: #ffffff;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
