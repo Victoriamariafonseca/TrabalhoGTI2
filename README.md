@@ -1,7 +1,7 @@
 # TrabalhoGTI2
 Segundo trabalho API
 
-# Feito por Diego Bruno Freitas e Victoria Maria Fonseca Maranhão
+# Feito por Diego Bruno Freitas, Victoria Maria Fonseca Maranhão e Nicolas Miguel Augusto 
 
 # Projeto Clima Tempo com API
 
